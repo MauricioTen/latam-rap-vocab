@@ -4,5 +4,13 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"workbench.editorAssociations": {
+			"*.copilotmd": "vscode.markdown.preview.editor",
+			"*.parquet": "duckdb.dataFileViewer",
+			"*.csv": "duckdb.dataFileViewer",
+			"*.tsv": "duckdb.dataFileViewer",
+			"*.xlsx": "duckdb.dataFileViewer"
+		}
+	}
 }
